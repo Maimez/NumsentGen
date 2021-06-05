@@ -5,7 +5,7 @@ import random
 
 
 class NumberSentence:
-    def __init__(self, min=0, max=10) -> None:
+    def __init__(self, min, max) -> None:
         self.a = random.randint(min, max)
         self.b = random.randint(min, max)
         self.op = None

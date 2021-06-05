@@ -130,3 +130,10 @@ dmypy.json
 
 # VS Code settings
 .vscode/
+
+# fonts
+fonts/cm-unicode-0.7.0/*
+!fonts/cm-unicode-0.7.0/*.ttf
+
+# output
+out/
